@@ -7,3 +7,5 @@ medialog.summaryview.egg-info/
 *.mo
 
 *.pyc
+
+*.gz
