@@ -11,13 +11,5 @@
       template="summary_view.pt"
       />
       
-   <browser:page
-      name="folder_summary_view"
-      permission="zope2.View"
-      for="plone.folder.interfaces.IFolder"
-      layer="..interfaces.IThemeSpecific"
-      template="summary_view.pt"
-      />
-
 
 </configure>

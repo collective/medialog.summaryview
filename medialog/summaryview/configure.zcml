@@ -9,8 +9,8 @@
 
    <five:registerPackage package="." initialize=".initialize" />
    <i18n:registerTranslations directory="locales" />
-   <cmf:registerDirectory name="medialog_hidetitle" />
-      
+   <cmf:registerDirectory name="medialog_summaryview" />
+         
    <include package="archetypes.schemaextender" /> 
    <include file="profiles.zcml" />
    <include package=".browser" />
