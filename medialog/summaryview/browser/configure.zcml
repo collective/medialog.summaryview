@@ -19,32 +19,5 @@
       template="summary_view.pt"
       />
 
-  <browser:page
-      name="folder_summary_view"
-      permission="zope2.View"
-      for="plone.folder.interfaces.IFolder"
-      layer="..interfaces.IThemeSpecific"
-      template="summary_view.pt"
-      />      
-      
-     
-   <browser:page
-         for="Products.Archetypes.interfaces.IBaseFolder"
-         name="folder_leadimage_view"
-         class="collective.contentleadimage.folder_leadimage_view.FolderLeadImageView"
-         template="folder_leadimage_view.pt"
-         layer="..interfaces.IThemeSpecific"
-         permission="zope2.View"
-         allowed_attributes="tag"
-    />
-    
-    <browser:page
-         for="Products.CMFPlone.interfaces.IPloneSiteRoot"
-         name="folder_leadimage_view"
-         class="collective.contentleadimage.folder_leadimage_view.FolderLeadImageView"
-         template="folder_leadimage_view.pt"
-         layer="..interfaces.IThemeSpecific"
-         permission="zope2.View"
-     />
 
 </configure>
