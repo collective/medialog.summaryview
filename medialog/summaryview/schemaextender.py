@@ -21,7 +21,7 @@ class _BooleanExtensionField(ExtensionField, BooleanField):
 	pass
 
 class ContentTypeExtender(object):
-    """Adapter that adds custom field used for hiding it from showing in summary view."""
+    """Adapter that adds custom field used for hiding it in summary view."""
     adapts(IATContentType)
     implements(ISchemaExtender, IBrowserLayerAwareExtender)
     layer = ISummaryHiddenObject
